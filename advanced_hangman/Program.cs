@@ -199,7 +199,7 @@ namespace advanced_hangman
                         }
                         titleName = "You won!";
                         header();
-                        Console.WriteLine("{0}\n Good job!)", thought);
+                        Console.WriteLine("{0}\nGood job!", thought);
                         Thread.Sleep(1000);
                         Console.WriteLine("Your socre was {0} points", score);
                         Thread.Sleep(500);
